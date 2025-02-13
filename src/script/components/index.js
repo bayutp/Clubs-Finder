@@ -1,5 +1,11 @@
 import './appbar.js'
-import './footer.js'
+import './sectiontitle.js'
+
+import './searchloading.js'
+import './querywaiting.js'
+import './searchbar.js'
+
 import './clubitems.js'
 import './clublist.js'
-import './searchbar.js'
+
+import './footer.js'

@@ -26,9 +26,9 @@ const home = () => {
       showClubList()
     })
     .catch(error => {
-      clubSearchErrorElement.textContent = error
+      clubSearchErrorElement.textContent = error.message
       showSearchError()
-      console.log(error)
+      console.log(error.message)
     })
   };
 
